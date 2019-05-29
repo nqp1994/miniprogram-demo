@@ -1,0 +1,91 @@
+page {
+  background: #f2f2f2;
+}
+.header {
+  background: #ff74ab;
+  height: 250rpx;
+  overflow: hidden;
+  box-shadow: 0 0 10rpx #ff74ab;
+}
+.header .left {
+  width: 200rpx;
+  height: 200rpx;
+  display: inline-block;
+}
+.header .left image {
+  height: 100rpx;
+  width: 100rpx;
+  margin-top: 20rpx;
+  margin-left: 50rpx;
+  border-radius: 100rpx;
+  box-shadow: 0 0 0 5rpx rgba(0,0,0,.1)
+}
+.header .right {
+  width: 550rpx;
+  height: 200rpx;
+  float: right;
+  overflow: hidden;
+  color: #fff;
+  line-height: 1.5;
+  padding-top: 20rpx;
+}
+.header .right .name {
+  width: 100%;
+  font-size: 28rpx;
+}
+.header .right .level {
+  width: 100%;
+  font-size: 22rpx;
+}
+.header .right .info {
+  font-size: 22rpx;
+}
+.header .right .info view {
+  display: inline-block;
+}
+.header .right .info .id {
+  margin-left: 40rpx;
+}
+.nui-card {
+  width: 680rpx;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 20rpx rgba(0,0,0,.2);
+}
+.nui-card .nui-col-5 {
+  margin:8rpx auto;
+}
+.nui-col-5 > image{
+  width: 50rpx;
+  height:50rpx;
+}
+.nui-col-5 .title {
+  font-size: 28rpx;
+  color: #333;
+}
+.member {
+  width: 680rpx;
+  margin:0 auto;
+  text-align: center;
+  box-shadow: 0 0 50rpx rgba(0,0,0,.1);
+  margin-top: 40rpx;
+  background: #fff;
+  border-radius: 8rpx;
+  font-size: 28rpx;
+  color: #333;
+}
+.member .nui-col-group {
+  width: 600rpx;
+  margin: 0 auto;
+  padding:20rpx;
+}
+.member .nui-col-3 image{
+  width:60rpx;
+  height: 60rpx;
+  padding:10rpx 0;
+}
+.member .nui-col-4 image{
+  width:60rpx;
+  height: 60rpx;
+  padding:10rpx 0;
+}

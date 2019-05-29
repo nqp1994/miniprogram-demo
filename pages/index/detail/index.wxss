@@ -1,0 +1,206 @@
+/* pages/index/detail/index.wxss */
+swiper {
+  width: 100%;
+  height: 750rpx;
+}
+swiper image {
+  width: 100%;
+  height: 750rpx;
+}
+.product {
+  padding: 20rpx;
+}
+.product .pro-name {
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #333;
+}
+.pro-desc,.pro-spec {
+  font-size: 20rpx;
+  color: #666;
+  line-height: 34rpx;
+}
+.pro-price .pro-price-title {
+  font-size:20rpx;
+  color: #666;
+  display: inline-block;
+  margin-right: 10rpx;
+}
+.pro-price .pro-price-money {
+  font-size: 40rpx;
+  display: inline-block;
+}
+.pro-content {
+  margin-top: 20rpx;
+  width: 100%;
+}
+.pro-content .pro-tab {
+  background: #f2f2f2;
+  width: 100%;
+  height: 60rpx;
+  overflow: hidden;
+}
+.pro-content .pro-tab view {
+  display: inline-block;
+  width: 33%;
+  height: 40rpx;
+  line-height: 40rpx;
+  margin-top:10rpx;
+  border-right: 1rpx solid #999;
+  font-size: 28rpx;
+  color: #999;
+  text-align: center;
+}
+.pro-content .pro-tab view:last-child {
+  border-right:none; 
+}
+.pro-content .pro-tab .active {
+  color: #ff74ab;
+}
+.pro-detail {
+  width: 100%;
+  margin-top: 40rpx;
+}
+.pro-detail .item1,.item2,.item3 {
+  width: 100%;
+  margin: 0 auto;
+  display: none;
+}
+.pro-detail .active{display: block}
+.pro-detail .show {
+  width: 100%;
+  margin-top: 20rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 1rpx dashed rgba(0, 0, 0, .1)
+}
+.pro-detail .show .show-left {
+  display: inline-block;
+  width: 120rpx;
+  height: auto;
+  vertical-align: top;
+}
+.pro-detail .show .show-left image {
+  display: block;
+  width: 60rpx;
+  height: 60rpx;
+  margin:0 auto;
+  border-radius: 60rpx;
+  overflow: hidden;
+}
+.pro-detail .show .show-right {
+  display: inline-block;
+  width: 630rpx;
+  overflow: hidden;
+}
+.show-right .user-name {
+  font-size: 26rpx;
+  color: #333;
+}
+.show-right .add-time {
+  font-size: 22rpx;
+  color: #999;
+}
+.show-content {
+  margin: 10rpx 0;
+  padding: 0 20rpx 0 0;
+}
+.show-content text {
+  font-size: 28rpx;
+  color: #333;
+  line-height: 1;
+}
+.show-content .img-box {
+  margin-top: 10rpx;
+}
+.show-content image {
+  width: 30%;
+  height: auto;
+  margin-right:2.5%; 
+}
+.show-btn-group {
+  font-size: 22rpx;
+  color: #999;
+  line-height: 50rpx;
+  height: 50rpx;
+}
+.show-btn-group .iconfont {
+  font-size: 24rpx;
+}
+.pro-info image {
+  width: 100%;
+}
+.spec-block {
+  position: fixed;
+  z-index: 2;
+  top: 150rpx;
+  background: #fff;
+  width: 600rpx;
+  margin-left: 75rpx;
+  overflow-x:hidden; 
+  border-radius: 10rpx;
+  box-shadow: 0 0 0 1000rpx rgba(0,0,0,.5);
+  display: none;
+}
+.spec-block .header {
+  height: 160rpx;
+  width: 100%;
+  overflow: hidden;
+  vertical-align: top;
+  border-bottom: 1rpx dashed rgba(0, 0, 0, .1);
+}
+.spec-block .header image {
+  width: 100rpx;
+  height: 100rpx;
+  float: left;
+  border-radius: 100rpx;
+  margin:30rpx;
+}
+.spec-block .header .price {
+  display: inline-block;
+}
+.spec-block .header .pro-name{
+  margin-top: 38rpx;
+  display: inline-block;
+  width: 400rpx;
+  font-size: 28rpx;
+  color: #333;
+}
+.spec-block .content {
+  padding:20rpx;
+  font-size: 24rpx;
+}
+.spec-block .spec-value {
+  width: 100%;
+}
+.spec-block .spec-value view {
+  display: inline-block;
+  padding:10rpx 15rpx;
+  margin: 10rpx;
+  border: 1rpx solid rgba(0, 0, 0, .1);
+}
+.spec-block .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60rpx;
+  height: 60rpx;
+  overflow: hidden;
+}
+.spec-block .close image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 20rpx;
+}
+.header  .btn {
+  float: right;
+  right: 30rpx;
+  top: 20rpx;
+  font-size: 26rpx;
+  padding: 10rpx 20rpx;
+  border: 1rpx solid #ddd;
+  margin-right: 20rpx;
+}
+.header .left {
+  display: inline-block;
+  width: 300rpx;
+}

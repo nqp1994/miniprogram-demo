@@ -1,0 +1,239 @@
+<view class='body'>
+  <!-- 轮播图 -->
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-active-color="#fff">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <!-- 产品内容 -->
+  <view class='product'>
+    <view class='pro-name'>
+      Yoonar驱蚊手环
+    </view>
+    <view class='pro-desc'>
+      Yoonar驱蚊手环
+    </view>
+    <view class='pro-spec'>
+      点击查看产品规格→
+    </view>
+    <view class='pro-price'>
+      <view class='pro-price-title'>
+        团购价 ￥
+      </view>
+      <view class='pro-price-money'>
+        39.9
+      </view>
+    </view>
+  </view>
+  <!-- 产品详情内容 -->
+  <view class='pro-content'>
+    <!-- 产品tab切换 -->
+    <view class='pro-tab'>
+      <view class="{{tabArr.curHdIndex=='0'? 'active' : ''}}" id='0' data-id="0" bindtap="tab">
+        买家图片秀
+      </view>
+      <view class="{{tabArr.curHdIndex=='1'? 'active' : ''}}" id='1' data-id="1" bindtap="tab">
+        买家视频秀
+      </view>
+      <view class="{{tabArr.curHdIndex=='2'? 'active' : ''}}" id='2' data-id="2" bindtap="tab">
+        产品说明
+      </view>
+    </view>
+    <!-- 产品详情页 -->
+    <view class='pro-detail'>
+      <view class="item1 {{tabArr.curBdIndex=='0'? 'active' : ''}}">
+        <!-- 买家图片秀循环 -->
+        <view class='show'>
+          <view class='show-left'>
+            <image src='http://s.ws315.net/UploadFiles/upload/SiteConfig/3_LOGO_131718836650551297.jpg'></image>
+          </view>
+          <view class='show-right'>
+            <view class='header'>
+              <view class='left'>
+                <view class='user-name'>楚楚小助手</view>
+                <view class='add-time'>2019-05-24</view>
+              </view>
+              <view class='btn'>关注</view>
+            </view>
+            <!-- 评价具体内容 -->
+            <view class='show-content'>
+              <text>Yonnaer
+                测试商品评价
+                这个商品非常的好，好的不行不行的！鼓掌！优秀~遵义微红网络科技有限公司于2017年02月10日成立。
+              </text>
+              <view class='img-box'>
+                <image src='http://hxxxs.ws315.net/UploadFiles/upload/Material/1558603295402jggpj36B93308-95EF-4902-827D-65A59502A107.jpeg' mode="widthFix"></image>
+                <image src='http://hxxxs.ws315.net/UploadFiles/upload/Material/1558603295454sdn407B6FC958-57E1-4874-9FE5-1A3BAEAFD900.jpeg' mode="widthFix"></image>
+                <image src='http://hxxxs.ws315.net/UploadFiles/upload/Material/1558603295505wjx7eAA7DD728-1953-49BF-BFB5-3EB41EFDC6A1.jpeg' mode="widthFix"></image>
+                <image src='http://hxxxs.ws315.net/UploadFiles/upload/Material/1558602365209d4krf8BF9AA76-C760-4D06-A007-A9EB54AC51D2.jpeg' mode="widthFix"></image>
+              </view>
+            </view>
+            <!-- 评价内容操作按钮组 -->
+            <view class='show-btn-group'>
+              <view class='nui-col-3'>
+                下载图片 247
+                <icon class='iconfont icon-download'></icon>
+              </view>
+              <view class='nui-col-3'>
+                复制文字
+                <icon class='iconfont icon-fenxiang'></icon>
+              </view>
+              <view class='nui-col-3'>
+                点赞134
+                <icon class='iconfont icon-dianzan1'></icon>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class='show'>
+          <view class='show-left'>
+            <image src='http://s.ws315.net/UploadFiles/upload/SiteConfig/3_LOGO_131718836650551297.jpg'></image>
+          </view>
+          <view class='show-right'>
+            <view class='header'>
+              <view class='left'>
+                <view class='user-name'>楚楚小助手</view>
+                <view class='add-time'>2019-05-24</view>
+              </view>
+              <view class='btn'>关注</view>
+            </view>
+            <!-- 评价具体内容 -->
+            <view class='show-content'>
+              <text>Yonnaer
+                测试商品评价
+                这个商品非常的好，好的不行不行的！鼓掌！优秀~遵义微红网络科技有限公司于2017年02月10日成立。
+              </text>
+              <view class='img-box'>
+                <image src='http://s.ws315.net/UploadFiles/upload/SiteConfig/3_LOGO_131718836650551297.jpg' mode="widthFix"></image>
+              </view>
+            </view>
+            <!-- 评价内容操作按钮组 -->
+            <view class='show-btn-group'>
+              <view class='nui-col-3'>
+                下载图片 247
+                <icon class='iconfont icon-download'></icon>
+              </view>
+              <view class='nui-col-3'>
+                复制文字
+                <icon class='iconfont icon-fenxiang'></icon>
+              </view>
+              <view class='nui-col-3'>
+                点赞134
+                <icon class='iconfont icon-dianzan1'></icon>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="item2 {{tabArr.curBdIndex=='1'? 'active' : ''}}">
+        <!-- 买家视频秀 -->
+        <view class='show'>
+          <view class='show-left'>
+            <image src='http://s.ws315.net/UploadFiles/upload/SiteConfig/3_LOGO_131718836650551297.jpg'></image>
+          </view>
+          <view class='show-right'>
+            <view class='header'>
+              <view class='left'>
+                <view class='user-name'>楚楚小助手</view>
+                <view class='add-time'>2019-05-24</view>
+              </view>
+              <view class='btn'>关注</view>
+            </view>
+            <!-- 评价具体内容 -->
+            <view class='show-content'>
+              <text>Yonnaer
+                测试商品评价
+                这个商品非常的好，好的不行不行的！鼓掌！优秀~遵义微红网络科技有限公司于2017年02月10日成立。
+              </text>
+              <view class='img-box'>
+                <view class=''>
+                  <video src='http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400'></video>
+                </view>
+              </view>
+            </view>
+            <!-- 评价内容操作按钮组 -->
+            <view class='show-btn-group'>
+              <view class='nui-col-3'>
+                下载视频 247
+                <icon class='iconfont icon-download'></icon>
+              </view>
+              <view class='nui-col-3'>
+                复制文字
+                <icon class='iconfont icon-fenxiang'></icon>
+              </view>
+              <view class='nui-col-3'>
+                点赞 134
+                <icon class='iconfont icon-dianzan1'></icon>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="item3 {{tabArr.curBdIndex=='2'? 'active' : ''}}">
+        <!-- 产品说明 -->
+        <view class='pro-info'>
+          <image src='http://hxxxs.ws315.net/UploadFiles/upload/Product/6369282940257803131.jpg' mode='widthFix'></image>
+          <image src='http://hxxxs.ws315.net/UploadFiles/upload/Product/636940305293125285BK30-1.jpg' mode='widthFix'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 规格弹窗 -->
+  <view class='spec-block'>
+    <view class='header'>
+      <image src='https://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640'></image>
+      <view class='pro-name'>这里是产品的标题</view>
+      <view class='price text-orange'>
+        ￥ 49.9
+      </view>
+    </view>
+    <view class='content'>
+      <!-- 规格循环 -->
+      <view class='spec-item'>
+        <view class='spec-title'>
+          规格
+        </view>
+        <view class='spec-value'>
+          <view>100g</view>
+          <view>200g</view>
+          <view>300g</view>
+          <view>试用装</view>
+        </view>
+      </view>
+
+      <view class='spec-item'>
+        <view class='spec-title'>
+          颜色
+        </view>
+        <view class='spec-value'>
+          <view>红色</view>
+          <view>黄色</view>
+          <view>灰色</view>
+          <view>试用装</view>
+        </view>
+      </view>
+    </view>
+    <!-- 关闭按钮 -->
+    <view class='close'>
+      <image src='/asset/icon/close.png'></image>
+    </view>
+  </view>
+  <!-- 底部数据加载完成提示条 -->
+  <view class='nui-bottom-tips'>
+    <view class='text'>
+      我也是有底线的╮(￣▽￣")╭
+    </view>
+  </view>
+  <view style='height:120rpx;'></view>
+  <!-- 底部按钮组 -->
+  <view class='footer nui-col-group'>
+    <navigator class='nui-col-2 nui-btn-orange' url='/pages/upload/index'>
+      上传素材
+    </navigator>
+    <view class='nui-col-2 nui-btn-pink'>
+      分享商品
+    </view>
+  </view>
+</view>

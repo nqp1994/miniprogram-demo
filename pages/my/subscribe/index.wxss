@@ -1,0 +1,27 @@
+.user {
+  padding:10rpx 4%;
+}
+.user image{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 80rpx;
+  overflow: hidden;
+}
+.user .user-name {
+  display: inline-block;
+  width: 400rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 28rpx;
+  color: #666;
+  margin-left: 20rpx;
+  overflow: hidden;
+}
+.user .btn{
+  float: right;
+  padding:6rpx 20rpx;
+  border: 1rpx solid #ddd;
+  font-size: 26rpx;
+  margin-top:20rpx;
+  border-radius: 8rpx;
+}

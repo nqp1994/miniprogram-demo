@@ -1,0 +1,6 @@
+<!-- 底部数据加载完成提示条 -->
+<view class='nui-bottom-tips'>
+  <view class='text'>
+    暂无数据
+  </view>
+</view>

@@ -1,0 +1,53 @@
+<view class='body'>
+  <!-- 产品列表 -->
+  <view class='nui-col-group nui-margin-t-10 pro-group'>
+    <view class='nui-col-2'>
+      <navigator class='product' hover-class="none">
+        <image src="http://hxxxs.ws315.net/UploadFiles/upload/Product/6369282940257803131.jpg"></image>
+        <view class='pro-title'>HXXXXS恶搞系列BK涂鸦款191A13-1</view>
+        <view class='pro-desc'>商品介绍间接191A13-1列BK涂鸦款</view>
+        <view class='pro-desc'>团购价：</view>
+        <view class='pro-price'>
+          <view class='pro-price-item'>￥158.00</view>
+        </view>
+        <view class='pro-share'>取消收藏</view>
+      </navigator>
+    </view>
+    <view class='nui-col-2'>
+      <navigator class='product' hover-class="none">
+        <image src="http://hxxxs.ws315.net/UploadFiles/upload/Product/636940305293125285BK30-1.jpg"></image>
+        <view class='pro-title'>I Am Not 恶搞系列BK涂鸦款191A13-1</view>
+        <view class='pro-desc'>there is a description</view>
+        <view class='pro-desc'>团购价：</view>
+        <view class='pro-price'>
+          <view class='pro-price-item'>￥58.00</view>
+        </view>
+        <view class='pro-share'>取消收藏</view>
+      </navigator>
+    </view>
+    <view class='nui-col-2'>
+      <navigator class='product' hover-class="none">
+        <image src="http://hxxxs.ws315.net/UploadFiles/upload/Product/6369282940257803131.jpg"></image>
+        <view class='pro-title'>HXXXXS恶搞系列BK涂鸦款191A13-1</view>
+        <view class='pro-desc'>商品介绍间接191A13-1列BK涂鸦款</view>
+        <view class='pro-desc'>团购价：</view>
+        <view class='pro-price'>
+          <view class='pro-price-item'>￥158.00</view>
+        </view>
+        <view class='pro-share'>取消收藏</view>
+      </navigator>
+    </view>
+    <view class='nui-col-2'>
+      <navigator class='product' hover-class="none">
+        <image src="http://hxxxs.ws315.net/UploadFiles/upload/Product/636940305293125285BK30-1.jpg"></image>
+        <view class='pro-title'>I Am Not 恶搞系列BK涂鸦款191A13-1</view>
+        <view class='pro-desc'>there is a description</view>
+        <view class='pro-desc'>团购价：</view>
+        <view class='pro-price'>
+          <view class='pro-price-item'>￥58.00</view>
+        </view>
+        <view class='pro-share'>取消收藏</view>
+      </navigator>
+    </view>
+  </view>
+</view>

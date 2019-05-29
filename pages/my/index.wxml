@@ -1,0 +1,94 @@
+<view class='body'>
+  <!-- 顶部个人信息 -->
+  <view class='header'>
+    <view class='left'>
+      <image src='http://wx.weihom.com/uploads/528109/20190430/72e5959e7dbae08d060eeeac8a605afe.png'></image>
+    </view>
+    <view class='right'>
+      <view class='name'>
+        聂曲平
+      </view>
+      <view class='level'>
+        等级：普通VIP
+      </view>
+      <view class='info'>
+        <view class='money'>
+          3 粉笔
+        </view>
+        <view class='id'>
+          ID:67894
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 关键内容导航 -->
+  <view style='position:relative;top:-100rpx;'>
+    <view class='nui-card nui-col-group'>
+      <navigator class='nui-col-5' url='myadd/index' hover-class="none">
+        <image src='/asset/icon/fabu.png'></image>
+        <view class='title'>发布</view>
+      </navigator>
+      <navigator class='nui-col-5' url='subscribe/index' hover-class="none">
+        <image src='/asset/icon/guanzhu.png'></image>
+        <view class='title'>关注</view>
+      </navigator>
+      <navigator class='nui-col-5' url='Coupon/index' hover-class="none">
+        <image src='/asset/icon/youhuiquan.png'></image>
+        <view class='title'>优惠券</view>
+      </navigator>
+      <navigator class='nui-col-5' url='collect/index' hover-class="none">
+        <image src='/asset/icon/shoucang.png'></image>
+        <view class='title'>收藏</view>
+      </navigator>
+      <view class='nui-col-5'>
+        <image src='/asset/icon/dianzan.png'></image>
+        <view class='title'>点赞</view>
+      </view>
+    </view>
+    <view class='clear'></view>
+    <!-- 个人中心 -->
+    <view class='member'>
+      <view class='nui-col-title'>
+        <view>个人中心</view>
+      </view>
+      <view class='nui-col-group nui-border-t'>
+        <navigator class='nui-col-3' url='friends/index' hover-class="none">
+          <image src='/asset/icon/wodefenyou.png'></image>
+          <view class='title'>我的粉友</view>
+        </navigator>
+        <navigator class='nui-col-3' url='fans/index' hover-class="none">
+          <image src='/asset/icon/wodefensi.png'></image>
+          <view class='title'>我的粉丝</view>
+        </navigator>
+        <navigator class='nui-col-3' url='qrcode/index' hover-class="none">
+          <image src='/asset/icon/wodefenma.png'></image>
+          <view class='title'>我的粉码</view>
+        </navigator>
+      </view>
+    </view>
+    <!-- 奖品中心 -->
+    <view class='member'>
+      <view class='nui-col-title'>
+        <view>奖品中心</view>
+      </view>
+      <view class='nui-col-group nui-border-t'>
+        <view class='nui-col-4' bindtap='deving'>
+          <image src='/asset/icon/quanbudingdan.png'></image>
+          <view class='title'>全部订单</view>
+        </view>
+        <view class='nui-col-4' bindtap='deving'>
+          <image src='/asset/icon/daifahuo.png'></image>
+          <view class='title'>待发货</view>
+        </view>
+        <view class='nui-col-4' bindtap='deving'>
+          <image src='/asset/icon/daishouhuo.png'></image>
+          <view class='title'>待收货</view>
+        </view>
+        <view class='nui-col-4' bindtap='deving'>
+          <image src='/asset/icon/wodejiangpin.png'></image>
+          <view class='title'>我的奖品</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

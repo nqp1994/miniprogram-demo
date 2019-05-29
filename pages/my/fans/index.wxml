@@ -1,0 +1,15 @@
+<view class='body'>
+  <!-- 我的关注 -->
+  <view class='user nui-border-b'>
+    <image src='http://hxxxs.ws315.net/UploadFiles/upload/Product/6369282940257803131.jpg'></image>
+    <view class='user-name'>HXXXXS恶搞系列BK涂鸦款191A13-1</view>
+  </view>
+  <view class='user nui-border-b'>
+    <image src='http://hxxxs.ws315.net/UploadFiles/upload/Product/6369282940257803131.jpg'></image>
+    <view class='user-name'>HXXXXS恶搞系列BK涂鸦款191A13-1</view>
+  </view>
+  <view class='user nui-border-b'>
+    <image src='http://hxxxs.ws315.net/UploadFiles/upload/Product/6369282940257803131.jpg'></image>
+    <view class='user-name'>HXXXXS恶搞系列BK涂鸦款191A13-1</view>
+  </view>
+</view>

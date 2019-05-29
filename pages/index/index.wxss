@@ -1,0 +1,110 @@
+.body {
+  background: #f2f2f2;
+}
+swiper {
+  height: 380rpx;
+}
+.nui-classify {
+  background: #fff;
+}
+.nui-col-group .nui-col-5 image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.nui-col-group .nui-col-5 .default{
+  font-size: 24rpx;
+  color: #333;
+}
+.pro-group {
+  width: 730rpx;
+  margin: 20rpx auto;
+}
+.nui-col-2 .product {
+  width: 350rpx;
+  height: 520rpx;
+  border-radius: 8rpx;
+  overflow: hidden;
+  margin: 0 auto;
+  background: #fff;
+}
+.nui-col-2 .product image{
+  width: 350rpx;
+  height: 350rpx;
+}
+.product .pro-title {
+  padding: 0 10rpx;
+  font-size: 28rpx;
+  height: 35rpx;
+  line-height: 35rpx;
+  overflow: hidden;
+}
+.product .pro-desc {
+  padding: 0 10rpx;
+  height: 35rpx;
+  line-height: 35rpx;
+  overflow: hidden;
+  font-size: 22rpx;
+  color: #999;
+}
+.product .pro-price{
+  display: inline-block;
+  padding-left:10rpx;
+  font-size: 32rpx;
+  color: #333;
+  font-weight: 600;
+}
+.product .pro-share {
+  font-size: 24rpx;
+  color: #fff;
+  float: right;
+  margin-right: 20rpx;
+  line-height: 38rpx;
+  height: 36rpx;
+  padding: 0 14rpx;
+  border-radius: 32rpx;
+  background: -webkit-linear-gradient(left, #ff74ab , #ff106e); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #ff74ab, #ff106e); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, #ff74ab, #ff106e); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, #ff74ab , #ff106e); /* 标准的语法 */
+}
+.nui-card .deadline {
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 26rpx;
+  color: #fff;
+  background: -webkit-linear-gradient(left, #ff74ab , #ff106e); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #ff74ab, #ff106e); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, #ff74ab, #ff106e); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, #ff74ab , #ff106e); /* 标准的语法 */
+  text-indent: 20rpx;
+}
+.nui-card .deadline .time {
+  color: #FFA54F;
+  margin-left: 20rpx;
+}
+.nui-card  .pro-price {
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #333;
+  display: inline-block;
+  margin-left: 20rpx;
+  padding-bottom: 20rpx;
+}
+.nui-card .nui-desc {
+  font-size: 20rpx;
+}
+.nui-card .pro-share {
+  color: #fff;
+  float: right;
+  margin-right: 20rpx;
+  margin-top: -40rpx;
+  line-height: 50rpx;
+  font-size: 28rpx;
+  height: 50rpx;
+  padding: 0 14rpx;
+  border-radius: 32rpx;
+  background: -webkit-linear-gradient(left, #ff74ab , #ff106e); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #ff74ab, #ff106e); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, #ff74ab, #ff106e); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, #ff74ab , #ff106e); /* 标准的语法 */
+}

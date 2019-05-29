@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/task/index",
+    "pages/my/index",
+    "pages/my/friends/index",
+    "pages/my/fans/index",
+    "pages/my/qrcode/index",
+    "pages/my/zan/index",
+    "pages/my/collect/index",
+    "pages/my/coupon/index",
+    "pages/my/subscribe/index",
+    "pages/my/myadd/index",
+    "pages/index/index",
+    "pages/upload/index",
+    "pages/index/detail/index",
+    "pages/material/index",
+    "pages/material/detail/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "you title",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color":"#999",
+    "selectedColor": "#3080fe",
+    "list": [
+      {
+        "iconPath":"asset/icon/home.png",
+        "selectedIconPath":"asset/icon/home-on.png",
+        "pagePath": "pages/index/index",
+        "text": "上架产品"
+      },
+      {
+        "iconPath": "asset/icon/material.png",
+        "selectedIconPath": "asset/icon/material-on.png",
+        "pagePath": "pages/material/index",
+        "text": "上传素材"
+      },
+      {
+        "iconPath": "asset/icon/task.png",
+        "selectedIconPath": "asset/icon/task-on.png",
+        "pagePath": "pages/task/index",
+        "text": "任务"
+      },
+      {
+        "iconPath": "asset/icon/my.png",
+        "selectedIconPath": "asset/icon/my-on.png",
+        "pagePath": "pages/my/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

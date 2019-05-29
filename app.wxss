@@ -1,0 +1,353 @@
+/**公用样式**/
+.clear {
+  clear: both;
+}
+.center {
+  text-align: center;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.nui-margin-t-10 {
+  margin-top: 20rpx;
+}
+
+swiper image {
+  width: 100%;
+}
+
+view {
+  font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+}
+
+/* 按钮组 */
+
+.nui-btn-pink {
+  background: #ff74ab;
+  color: #fff;
+}
+
+.nui-btn-orange {
+  background: #ffa54f;
+  color: #fff;
+}
+
+/* 文字颜色 */
+
+.text-warning {
+  color: #e5d936;
+}
+
+.text-orange {
+  color: #ffa54f;
+}
+
+/* flex布局，宫格布局 */
+
+.nui-col-title {
+  font-size: 28rpx;
+  color: #333;
+  text-align: left;
+  vertical-align: middle;
+  padding:15rpx 0;
+}
+
+.nui-col-title view {
+  margin-left: 20rpx;
+  text-indent: 20rpx;
+  border-left: 5rpx #ff74ab solid;
+}
+
+.nui-col-group .nui-col-5 {
+  width: 20%;
+  display: inline-block;
+  overflow: hidden;
+  padding: 20rpx 0;
+}
+
+.nui-col-group image {
+  width: 100%;
+  height: 100%;
+}
+
+.nui-col-group .nui-col-2 {
+  width: 50%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.nui-col-3 {
+  width: 33.33%;
+  display: inline-block;
+  overflow: hidden;
+}
+.nui-col-4 {
+  width: 25%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+/* 公用底部 */
+
+.footer {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  font-size: 28rpx;
+  bottom: 0;
+  left: 0;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+
+/* 列表页cell样式 */
+
+.nui-cells {
+  font-size: 28rpx;
+  overflow: hidden;
+  width: 100%;
+  background: #fff;
+}
+
+.nui-cell {
+  padding: 20rpx 30rpx;
+  position: relative;
+  display: flex;
+  align-items: center;
+  line-height: 50rpx;
+}
+
+.nui-cell-media-item {
+  display: inline-block;
+  width: 50rpx;
+  height: 50rpx;
+  overflow: hidden;
+  margin-right: 10rpx;
+}
+
+.nui-cell-media-item image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 5rpx;
+}
+
+.nui-cell .nui-cell-item {
+  width: 100%;
+}
+
+.nui-cell-arrow .nui-cell-ft {
+  float: right;
+  margin-right: 10rpx;
+}
+
+.nui-cell-arrow .nui-cell-ft:after {
+  content: " ";
+  display: inline-block;
+  height: 20rpx;
+  width: 20rpx;
+  border-width: 4rpx 4rpx 0 0;
+  border-color: #c8c8cd;
+  border-style: solid;
+  -webkit-transform: matrix(0.71, 0.71, -.71, 0.71, 0, 0);
+  transform: matrix(0.71, 0.71, -.71, 0.71, 0, 0);
+  top: -6rpx;
+  position: absolute;
+  top: 50%;
+  margin-top: -10rpx;
+  right: 20rpx;
+}
+
+.nui-cell:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 1px;
+  border-top: 1px solid #e5e5e5;
+  color: #e5e5e5;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  left: 15px;
+  z-index: 2;
+}
+
+/* border布局 */
+
+.nui-border-t {
+  border-top: 1rpx solid rgb(218, 216, 216);
+}
+
+.nui-border-r {
+  border-right: 1rpx solid rgb(218, 216, 216);
+}
+
+.nui-border-b {
+  border-bottom: 1rpx solid rgb(218, 216, 216);
+}
+
+.nui-border-l {
+  border-left: 1rpx solid rgb(218, 216, 216);
+}
+
+/* 公用布局结束 */
+
+/**当前小程序布局开始**/
+
+.container {
+  color: #333;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+}
+
+.nui-search {
+  background: #fff;
+  width: 96%;
+  margin: 0 auto;
+  padding: 20rpx;
+  text-align: center;
+}
+
+.nui-search input {
+  border: 1px solid #ddd;
+  line-height: 60rpx;
+  border-radius: 60rpx;
+  height: 60rpx;
+  padding-left: 30rpx;
+  font-size: 30rpx;
+}
+
+.nui-card {
+  width: 96%;
+  margin: 20rpx auto 0 auto;
+  border-radius: 8rpx;
+  overflow: hidden;
+  background: #fff;
+}
+
+.nui-card .top {
+  width: 100%;
+  height: 320rpx;
+  overflow: hidden;
+}
+
+.nui-card .top image {
+  width: 100%;
+}
+
+.nui-card .nui-title {
+  margin: 0 20rpx;
+  line-height: 60rpx;
+  font-size: 30rpx;
+  font-weight: 600;
+}
+
+.nui-card .nui-desc {
+  margin: 0 20rpx 10rpx 20rpx;
+  font-size: 26rpx;
+  color: #999;
+}
+
+.nui-bottom-tips {
+  border: none;
+  padding: 20rpx 0;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  font-size: 26rpx;
+  color: #999;
+}
+
+.nui-bottom-tips .text::before {
+  content: "";
+  width: 100rpx;
+  border-top: 1px #999 solid;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20rpx;
+}
+
+.nui-bottom-tips .text::after {
+  content: "";
+  width: 100rpx;
+  border-top: 1px #999 solid;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20rpx;
+}
+
+/* 文章页面样式 */
+
+.nui-article-header {
+  text-align: left;
+  font-size: 30rpx;
+  background: #fff;
+  width: 98%;
+  padding-left: 2%;
+}
+
+.nui-article-header .title {
+  font-weight: 600;
+  line-height: 60rpx;
+  margin-top: 10rpx;
+}
+
+.nui-article-header .desc {
+  font-size: 26rpx;
+  color: #999;
+}
+
+.nui-article-content {
+  width: 96%;
+  margin: 0 auto;
+  padding: 10rpx 2%;
+  background: #fff;
+  font-size: 28rpx;
+  text-indent: 20rpx;
+  line-height: 1.5;
+}
+
+.nui-article-content image {
+  width: 100%;
+}
+
+/* 引入iconfont */
+
+@font-face {
+  font-family: 'iconfont'; /* project id 1192939 */
+  src: url('//at.alicdn.com/t/font_1192939_sn7heuyebqk.eot');
+  src: url('//at.alicdn.com/t/font_1192939_sn7heuyebqk.eot?#iefix') format('embedded-opentype'),
+         url('//at.alicdn.com/t/font_1192939_sn7heuyebqk.woff2') format('woff2'),
+         url('//at.alicdn.com/t/font_1192939_sn7heuyebqk.woff') format('woff'),
+         url('//at.alicdn.com/t/font_1192939_sn7heuyebqk.ttf') format('truetype'),
+         url('//at.alicdn.com/t/font_1192939_sn7heuyebqk.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-download:before {
+  content: "\e615";
+}
+
+.icon-dianzan1:before {
+  content: "\e600";
+}
+
+.icon-fenxiang:before {
+  content: "\e6c1";
+}

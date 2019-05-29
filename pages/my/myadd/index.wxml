@@ -1,0 +1,105 @@
+<view class='body'>
+  <!-- 搜索按钮 -->
+  <view class='nui-search'>
+    <view>
+      <input placeholder='搜索'></input>
+    </view>
+  </view>
+  <!-- 买家图片秀循环 -->
+  <view class='pro-detail'>
+    <view class='show'>
+      <view class='show-left'>
+        <image src='http://s.ws315.net/UploadFiles/upload/SiteConfig/3_LOGO_131718836650551297.jpg'></image>
+      </view>
+      <view class='show-right'>
+        <view class='header'>
+          <view class='left'>
+            <view class='user-name'>楚楚小助手</view>
+            <view class='add-time'>2019-05-24</view>
+          </view>
+          <view class='btn'>点击删除</view>
+        </view>
+        <!-- 评价具体内容 -->
+        <view class='show-content'>
+          <text>Yonnaer
+                测试商品评价
+                这个商品非常的好，好的不行不行的！鼓掌！优秀~遵义微红网络科技有限公司于2017年02月10日成立。
+              </text>
+          <view class='img-box'>
+            <image src='http://hxxxs.ws315.net/UploadFiles/upload/Material/1558603295402jggpj36B93308-95EF-4902-827D-65A59502A107.jpeg' mode="widthFix"></image>
+            <image src='http://hxxxs.ws315.net/UploadFiles/upload/Material/1558603295454sdn407B6FC958-57E1-4874-9FE5-1A3BAEAFD900.jpeg' mode="widthFix"></image>
+            <image src='http://hxxxs.ws315.net/UploadFiles/upload/Material/1558603295505wjx7eAA7DD728-1953-49BF-BFB5-3EB41EFDC6A1.jpeg' mode="widthFix"></image>
+            <image src='http://hxxxs.ws315.net/UploadFiles/upload/Material/1558602365209d4krf8BF9AA76-C760-4D06-A007-A9EB54AC51D2.jpeg' mode="widthFix"></image>
+          </view>
+        </view>
+        <!-- 评价内容操作按钮组 -->
+        <view class='show-btn-group'>
+          <view class='nui-col-3'>
+            下载图片 247
+            <icon class='iconfont icon-download'></icon>
+          </view>
+          <view class='nui-col-3'>
+            复制文字
+            <icon class='iconfont icon-fenxiang'></icon>
+          </view>
+          <view class='nui-col-3'>
+            点赞134
+            <icon class='iconfont icon-dianzan1'></icon>
+          </view>
+        </view>
+        <!-- 产品信息 -->
+        <view class='product nui-border-t'>
+          <image src='http://hxxxs.ws315.net/UploadFiles/upload/Product/6369282940257803131.jpg'></image>
+          <view class='pro-name'>HXXXXS恶搞系列BK涂鸦款191A13-1</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 买家图片秀循环 -->
+  <view class='pro-detail'>
+    <view class='show'>
+      <view class='show-left'>
+        <image src='http://s.ws315.net/UploadFiles/upload/SiteConfig/3_LOGO_131718836650551297.jpg'></image>
+      </view>
+      <view class='show-right'>
+        <view class='header'>
+          <view class='user-name'>楚楚小助手</view>
+          <view class='add-time'>2019-05-24</view>
+        </view>
+        <!-- 评价具体内容 -->
+        <view class='show-content'>
+          <text>Yonnaer
+                测试商品评价
+                这个商品非常的好，好的不行不行的！鼓掌！优秀~遵义微红网络科技有限公司于2017年02月10日成立。
+              </text>
+          <view class='img-box'>
+            <image src='http://hxxxs.ws315.net/UploadFiles/upload/Material/1558603295402jggpj36B93308-95EF-4902-827D-65A59502A107.jpeg' mode="widthFix"></image>
+            <image src='http://hxxxs.ws315.net/UploadFiles/upload/Material/1558603295454sdn407B6FC958-57E1-4874-9FE5-1A3BAEAFD900.jpeg' mode="widthFix"></image>
+            <image src='http://hxxxs.ws315.net/UploadFiles/upload/Material/1558603295505wjx7eAA7DD728-1953-49BF-BFB5-3EB41EFDC6A1.jpeg' mode="widthFix"></image>
+            <image src='http://hxxxs.ws315.net/UploadFiles/upload/Material/1558602365209d4krf8BF9AA76-C760-4D06-A007-A9EB54AC51D2.jpeg' mode="widthFix"></image>
+          </view>
+        </view>
+        <!-- 评价内容操作按钮组 -->
+        <view class='show-btn-group'>
+          <view class='nui-col-3'>
+            下载图片 247
+            <icon class='iconfont icon-download'></icon>
+          </view>
+          <view class='nui-col-3'>
+            复制文字
+            <icon class='iconfont icon-fenxiang'></icon>
+          </view>
+          <view class='nui-col-3'>
+            点赞134
+            <icon class='iconfont icon-dianzan1'></icon>
+          </view>
+        </view>
+        <!-- 产品信息 -->
+        <view class='product nui-border-t'>
+          <image src='http://hxxxs.ws315.net/UploadFiles/upload/Product/6369282940257803131.jpg'></image>
+          <view class='pro-name'>HXXXXS恶搞系列BK涂鸦款191A13-1</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
